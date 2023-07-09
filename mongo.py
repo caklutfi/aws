@@ -13,7 +13,7 @@ services = {
 
 
 def fetchall():
-    client = pymongo.MongoClient("mongodb+srv://")
+    client = pymongo.MongoClient("mongodb+srv://caklutfi:toshibaC840.@cluster0.rmbyfax.mongodb.net/?retryWrites=true&w=majority")
     database = client.caklufi
     collection = database.services
     result = collection.find({})
